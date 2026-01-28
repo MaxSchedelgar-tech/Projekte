@@ -1,0 +1,92 @@
+div: kann mehrere und macht Platz
+span: einzeln und ohne Platz 
+
+Header Überschriften einfach
+
+eine Main 
+article Was man schreibt 
+section mehrere section bilden article, sind sozusagen besondere Paragraphen 
+
+style tags eröffnen dadrin css zu schreiben 
+
+
+kann immer einzelne jeweils eine andere einzigartige Klasse zuteilen  
+
+
+style und dann p und geschweifte Klammern dann alles weitere 
+
+
+id ist wie klasse aber  hat genau eine id. die weißt man dann zu
+
+kann man auch kombinieren 
+
+Style da man mehrere HTML Dateien ggf hat immer auslagern in einer css Dateien und auf diese dann zurückgreifen. 
+
+da gibt es drei Wege: link rel="Stylesheet" href= und dann Datei nimmt einfach von einer anderen Datei und das nimmt man meist. bzw statt Datei einfach n link also hyperlink
+
+sonst gibt es noch inline also in der zeile beim programmieren style= findet aber nur bei dem element Verwendung 
+
+mehrere sollte man extern ansteuern inline nur einzeln
+
+
+nach jeder Zeile bei attributen muss ein ; sonst kommt ein Fehler 
+
+/* Kommentar */
+
+spezifischere Attribute sind wichtiger als wenn man danach was allgemeines hinzufügt
+
+Rangfolge:
+
+unten Schriftgröße etc
+dann Datei die man einfügt stylesheet
+dann inline also in der Datei 
+
+RGB nach color zum mischen desto niedriger die Zahlen desto dunkler also näher an schwarz
+oder hexidezimal #FF00FF  sind immer zwei Zeichen für R G B 
+
+background geht mit style mit Image oder ohne 
+
+Boxmodell:  Padding Innenabstand
+            Margin Außenabstand
+
+            border solid meist sonst dashed oder dotted
+
+            nach unten kann es collapsen, seitlich vertical nicht 
+
+padding 10px 20px 5px 1px wäre erst oben rechts unten links in schnell 
+
+margin für andere Pixel 
+
+
+Display Eigenschaft Wie sich die Elemente verhalten sollen, meist Display: block meist, Display: None weg, es gibt auch noch flex und grid 
+
+flex css nebeneinander in einer Zeile wenn auf parent angewendet  
+
+mit Abständen Gap ist besser 
+
+flex:direction: row nebeneinander oder column untereinander evt reverse dann andersherum in der Reihenfolge, oft geht flex, ist flexibel
+
+grid: für Magazine oder wie ein Schachbrett
+
+spezifizieren !important King darunter speziefizieren wert dann Wertigkeit also codezeile
+
+media queries am Ende schreiben 
+
+da Kategorie Handy, tablet, pc 3 oder max 4 verschiedene machen, Mobile First immer ! und queries für tablet und PC 
+
+relative Einheiten sind besser als Pixel für Anwendbarkeit 
+
+
+
+
+Git Bash: Repisitory anlegen oder im Programm heißt es init
+dann 
+
+
+ mit cd Ordner ändern 
+
+Commit Messages sind einfach wie Kommentare zu Versionen: This commit will...
+
+Github um am Laptop weiterzuarbeiten: Kann man die git Dateien hochladen
+
+Pfeiltasten benutzen

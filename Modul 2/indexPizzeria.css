@@ -1,0 +1,65 @@
+h1 {
+  font-size: large;
+  color: gray;
+  text-align: center;
+  font-family: "Playwrite CU Guides", cursive;
+}
+
+.playwrite-cu-guides-regular {
+  font-family: "Playwrite CU Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+  font-size: medium;
+  color: rgb(230, 230, 230);
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+body {
+  background-image: url(hero.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.button {
+  display: inline-block;
+  background-position: center;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #ff5733;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #a31404;
+}
+
+body {
+  min-height: 100vh;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,19 @@
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 20px;
+      text-align: left;
+    }
+    .test {
+      font-size: 18px;
+      color: #a80606;
+    }
+    h1, h3 {
+      color: #4c09c9;
+    }
+    p {
+      line-height: 1.6;
+    }
+  </style>
