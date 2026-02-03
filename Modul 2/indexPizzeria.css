@@ -137,6 +137,7 @@ body {
 @media (max-width: 768px) {
   .break {
     display: block;
+    margin-left: 0.6rem;
   }
 }
 
