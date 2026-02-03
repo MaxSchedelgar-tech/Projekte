@@ -20,6 +20,7 @@ body {
   background-image: url(hero.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .button {
@@ -27,7 +28,7 @@ body {
   background-position: center;
   text-align: center;
   margin: 20px auto;
-  padding: 10px 20px;
+  padding: 1rem 2rem;
   font-size: 16px;
   color: white;
   background-color: #ff5733;
@@ -88,4 +89,57 @@ body {
   h2 {
     font-size: 2rem;
   }
+}
+
+.Navigationsleiste {
+  background-color: rgba(70, 66, 66, 0.7);
+  flex: row;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  gap: clamp(0, 75rem, 4vw, 3rem);
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: clamp(0.9rem, 2.2vw, 1.05rem);
+  font-family: "Arial", sans-serif;
+  padding: 8px 16px;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+  text-transform: uppercase;
+  white-space: normal;
+  word-break: keep-all;
+  text-align: center;
+}
+
+.nav-links li a:hover {
+  background-color: #ff5733;
+  color: white;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .break {
+    display: block;
+  }
+}
+
+.headerundnav {
+  width: 100vw;
 }
